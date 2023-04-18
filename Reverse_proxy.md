@@ -12,6 +12,8 @@ Difference between the two:
 
 A traditional forward proxy server allows multiple clients to route traffic to an external network. For instance, a business may have a proxy that routes and filters employee traffic to the public Internet. A reverse proxy, on the other hand, routes traffic on behalf of multiple servers.
 
+![](Rev_prox.png)
+
 ### what is Nginx default configeration?
 
 By default, Nginx HTTP server listens for incoming connection and binds on port 80, which represents the standard web port. 
