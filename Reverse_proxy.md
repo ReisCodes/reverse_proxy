@@ -36,13 +36,15 @@ Then create the file using:
 
 Within this file we need to add the following:
 
-- ```
+- 
+```
 server {
     listen 80;
     location / {
         proxy_pass http://192.168.10.100:3000/;
        }
      } 
+ ```
 
 4. Now we can activate the directory with:
 
