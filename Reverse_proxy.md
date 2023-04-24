@@ -28,7 +28,7 @@ By default, Nginx HTTP server listens for incoming connection and binds on port 
 
 3. Then we need to create the reverse proxy file name `reverse-proxy.conf` and store it in the directory:
 
-- `cd etc/nginx/sites-available/`
+- `cd /etc/nginx/sites-available/`
 
 Then create the file using:
 
@@ -36,7 +36,8 @@ Then create the file using:
 
 Within this file we need to add the following:
 
-- ```server {
+- ```
+server {
     listen 80;
     location / {
         proxy_pass http://192.168.10.100:3000/;
